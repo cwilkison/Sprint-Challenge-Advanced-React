@@ -9,6 +9,9 @@ function App() {
   return (
     <div className="App">
     <NavBar/>
+    <header>
+    <h4 data-testid="header">Women's World Cup - Google Analytics</h4>
+    </header>
     <PlayerCard/>
     {/* <SearchForm handleSearch={this.handleSearch} /> */}
     </div>
